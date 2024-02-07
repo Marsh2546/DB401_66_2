@@ -15,7 +15,7 @@ class MainApp extends StatelessWidget {
         body: Container(
           constraints: const BoxConstraints.expand(),
           decoration: const BoxDecoration(
-              image: DecorationImage( 
+              image: DecorationImage(
                   image: AssetImage('images/cloud.gif'), fit: BoxFit.cover)),
           child: const Report(),
         ),
