@@ -38,6 +38,6 @@ class Weather {
       {required this.address, required this.temperature, required this.cond});
 
   String get condition => _condition[cond];
-  String get symbol => _symbol[cond];
   String get body => address;
+  String get symbol => _symbol[cond];
 }
