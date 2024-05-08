@@ -107,7 +107,7 @@ class _ChallengeState extends State<Challenge> {
                         MaterialPageRoute(
                             builder: (context) => Game(id: doc.id))));
                   },
-                  child: const Text('0 Game'),
+                  child: const Text('New Game'),
                 ),
               ],
             ),
